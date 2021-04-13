@@ -1,0 +1,386 @@
+
+/*
+intro section style*/
+.about-container{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+text-align: center;
+
+
+}
+.about-container .content{
+  width: 100%;
+  height:100%;
+  margin: 20px;
+  text-align: justify;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: round;
+  transition: all 0.5s ease-in;
+}
+.about-container .about-img{
+background-image: url(img/chefs-2.jpg);
+
+}
+.intro-container .content:hover{
+transform: scaleY(1.1);
+transition: 0.5s 0.2s;
+}
+
+.about-container .content h3{
+padding-bottom: 10px;
+font-size: 12px;
+text-transform: uppercase;
+}
+.about-container .content h1{
+color: black;
+font-size: 3rem;
+font-weight:300;
+padding-bottom: 10px;
+}
+
+/*services section style*/
+#services{
+  position: relative;
+  transition: all 0.5s ease-in;
+height: 140vh;
+padding: 100px;
+line-height: 1.8;
+
+background-image: url(img/master-slides-03.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: round;
+background-blend-mode: soft-light;
+}
+.services-content .services-box{
+  width: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+}
+.services-content .title h1{
+  font-size: 3rem;
+  font-weight:300;
+  color:white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.services-content .title h3{
+  padding-bottom: 40px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.services-content .title{
+  text-align: center;
+}
+
+.services-content .services-box .box{
+  position: relative;
+  height: 310px;
+  width: 300px;
+ margin: 20px;
+ padding: 20px;
+ border-radius: 7px;
+ background:#29292990;
+ transition: 0.5s;
+}
+.services-content .services-box .box:hover{
+  transform: scaleY(1.1);
+transition: 0.5s 0.2s;
+}
+.services-content .services-box .box span{
+  color: #ce3232;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.services-content .services-box .box img{
+  width: 50px;
+}
+
+/*Special section*/
+#special{
+  height: 100vh;
+  padding: 100px;
+  line-height: 1.8;
+}
+
+#special .title h1{
+  font-size: 3rem;
+  font-weight:300;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#special .title h3{
+  padding-bottom: 40px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#special .special-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+#special .special-container .box{
+  position: relative;
+width: 100%;
+height: 400px;
+display: flex;
+ justify-content: center;
+ align-items: center;
+
+ flex-direction: column;
+}
+#special .special-container .box .special{
+  width: 100%;
+  height: 100%;
+  background: white;
+ position: relative;
+ 
+  background-position: center;
+  background-repeat: round;
+  background-size: cover;
+  padding: 20px;
+  text-align: justify;
+  transition: all 0.5s ease-in;
+}
+#special .special-container .box .special:hover{
+transform: scaleY(1.1);
+transition: 0.5s 0.2s;
+}
+#special .special-container .box .special span{
+color: #ce3232;
+font-weight: 300;
+font-size: 1.5rem;
+}
+#special .special-container .box .img1{
+  background-blend-mode: darken;
+background-image: url(img/special_1.jpg);
+}
+#special .special-container .box .img2{
+
+  background-blend-mode: darken;
+background-image: url(img/special_2.jpg);
+}
+#special .special-container .box .img3{
+  
+  background-image: url(img/special_3.jpg);
+  }
+  #special .special-container .box .img4{
+    background-image: url(img/cake.jpg);
+    }
+span{
+  color: #ce3232;
+}
+
+/*action section style*/
+
+#action{
+  position: relative;
+  height: 60vh;
+  padding: 100px;
+  background:#292929;
+  background-image: url(img/header-menu-02.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: round;
+  background-blend-mode: soft-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#action .content h1{
+color: white;
+font-size: 2rem;
+font-weight: 300px;
+
+}
+#action   p{
+  position: relative;
+
+}
+#action .content{
+  border-radius: 7px;
+ background:#29292990;
+ transition: 0.5s;
+ padding: 40px;
+
+ flex-direction: column;
+ text-align: center;
+ width: 100%;
+ flex-wrap: wrap-reverse;
+ flex: 25%;
+}
+#action .content:hover{
+  transform: scaleY(1.1);
+  transition: 0.5s 0.2s;
+}
+
+
+/*Menu section style*/
+#menu{
+  height: 130vh;
+  padding: 100px;
+}
+#menu .title{
+  text-align: center;
+}
+#menu .title h1{
+  font-size: 3rem;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-weight: 300;
+  color: black;
+}
+#menu .title h3{
+font-size: 12px;
+text-transform: uppercase;
+}
+#menu .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+margin-bottom: 20px;
+}
+#menu .content .box{
+  width: 300px;
+  margin: 10px;
+  border: 12px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+#menu .content .box .imgbox{
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+#menu .content .box .imgbox img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+#menu .content .box .imgbox img:hover{
+  transition: 0.5s 0.2s;
+transform: scale(1.1) rotate(-1.5deg);
+}
+#menu .content .box .text{
+  padding: 15px 0 5px;
+}
+#menu .content .box .text h3{
+font-weight: 300;
+color: #ce3232;
+}
+
+
+/*meet the team section style*/
+#team{
+  height: 100vh;
+  padding: 100px;
+  background: green;
+}
+#team .title{
+  text-align: center;
+}          
+
+
+@media (max-width:991px){
+  #about{
+
+    padding: 20px;
+  }
+  .about-container{
+flex-wrap: wrap;
+    }
+    .about-container .content{
+      width: 100%;
+      height:50%;
+      margin: 10px;
+    }
+    .about-container .text{
+      height:35%;
+    }
+    .about-container .content h1 {
+      font-size: 2rem;
+    }
+  .hero .content h1 {
+    font-size: 2rem;
+    padding: 20px 0px 40px 0px;
+  }
+  #hero .content {
+    padding: 20px;
+  }
+  #services{
+    height: 125vh;
+    padding: 20px;
+  }
+  
+  
+  #intro{
+   height: 60vh;
+  }
+  .services-content .title h1{
+    font-size:2rem;
+  }
+  #special .special-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  #special{
+      height: 138vh;
+    padding: 20px;
+      line-height: 1.5;
+}
+#special .special-container .box{
+height: 200px;
+flex-direction: row;
+}
+#special .title h1{
+  font-size: 2rem;
+}
+#special .special-container .box .special{
+  height: 200px;
+}
+#menu{
+  height: 160vh;
+  padding: 20px;
+}
+
+}
+
+@media (max-width:600px){
+  #services{
+    height: 230vh;
+   
+  }
+  .services-content .services-box{
+  flex-direction: column;
+  
+  }
+  
+  .about-container .text{
+    height:59%;
+  }
+  .about-container .about-img{
+    height:35%;
+  }
+  #action{
+  position: relative;
+  height: 80vh;
+  padding: 40px;
+  }
+  
+}
